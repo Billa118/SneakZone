@@ -1,0 +1,9 @@
+import { BRAND } from '../../config/brand'
+
+export default function AnnouncementBar() {
+  return (
+    <div className="bg-ink px-4 py-2 text-center text-xs font-medium tracking-wide text-white sm:text-sm">
+      {BRAND.announcement}
+    </div>
+  )
+}
